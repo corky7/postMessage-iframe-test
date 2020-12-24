@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>postMessage-iframe-test</title>
+  </head>
+  <body>
+    <h1>Some contents for iFrame</h1>
+    <button
+      onclick='window.parent.postMessage("this is a dummy postMessage", "*")'
+    >
+      Post Message
+    </button>
+    <p>
+      (To demo this go to
+      <a
+        href="https://codepen.io/choatek/pen/yLazrMe?editors=1010"
+        target="_blank"
+        )
+        >https://codepen.io/choatek/pen/yLazrMe?editors=1010</a
+      >
+      and then open console and click 'Post message' to see the PostMessage)
+    </p>
+  </body>
+</html>
